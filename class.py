@@ -1,11 +1,9 @@
-class Baitaptinhtichchuoi:
-    def __init__(self , list ):
-        self.list_item= list
-        self.mul_item= 1
-    def mul(self):
-        for x in self.list_item :
-            self.mul_item *=x
-list=[2,4,5,6,7]
-p1 = Baitaptinhtichchuoi(list)
-p1.mul()
-print (p1.mul_item)
+class SN :
+    pass 
+sieu_nhan_sao= SN() # Sieu_nhan_sao la object
+sieu_nhan_sao.ten ="Dat" #method - phương thức của object
+sieu_nhan_sao.mausac="xanh"#method - phương thức của object
+sieu_nhan_sao.vukhi ="kiem"#method - phương thức của object
+print("tên của siêu nhân là  ",sieu_nhan_sao.ten )
+print ("màu săc của siêu nhân là",sieu_nhan_sao.mausac )
+print("vu khi của siêu nhân là", sieu_nhan_sao.vukhi)
